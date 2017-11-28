@@ -1,0 +1,29 @@
+{
+  "name": "new-roam",
+  "version": "1.0.0",
+  "description": "## Skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnware15/new-roam.git"
+  },
+  "author": "John Ware and DeBray Carpenter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnware15/new-roam/issues"
+  },
+  "homepage": "https://github.com/johnware15/new-roam#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "pg-promise": "^7.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
