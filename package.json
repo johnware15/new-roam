@@ -15,6 +15,13 @@
   "bugs": {
     "url": "https://github.com/johnware15/new-roam/issues"
   },
+  "scripts": {
+    "db:init": "dropdb roam_db; createdb roam_db; psql roam_db < ./schema.sql; psql roam_db < ./load-data.sql",
+    "seedData": "psql roam_db < ./load-data.sql",
+    "createdb": "createdb roam_db",
+    "dropdb": "dropdb roam_db",
+    "createtables": "psql roam_db < ./schema.sql"
+  },
   "homepage": "https://github.com/johnware15/new-roam#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
