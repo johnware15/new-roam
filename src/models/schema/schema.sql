@@ -16,7 +16,8 @@ DROP TABLE IF EXISTS cities;
 CREATE TABLE cities (
   id SERIAL PRIMARY KEY,
   city VARCHAR(100),
-  country VARCHAR(100)
+  country VARCHAR(100),
+  image_url VARCHAR(500)
 );
 
 DROP TABLE IF EXISTS posts;
