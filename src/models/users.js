@@ -1,1 +1,5 @@
-const users = require('./db/users.js')
+const USER = require('./db/users.js');
+
+module.exports = {
+    
+}
